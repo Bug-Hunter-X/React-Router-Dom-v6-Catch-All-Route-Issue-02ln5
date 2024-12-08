@@ -1,0 +1,1 @@
+This repository demonstrates a common issue in React Router Dom v6 where a catch-all route (`/*`) unexpectedly matches before more specific routes.  The problem occurs because the order of routes within the `Routes` component matters.  The solution involves careful ordering of routes to prioritize more specific routes before the catch-all route.
